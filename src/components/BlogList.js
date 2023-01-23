@@ -28,7 +28,7 @@ const BlogList = () => {
 		<section className="p-4 ">
 			<h1 className="text-4xl font-bold my-6 text-center">Blog List</h1>
 			{blogPost && (
-				<div className="grid grid-cols-2 gap-6 place-items-center ">
+				<div className="grid grid-cols-1 md:grid-cols-2 gap-6 place-items-center ">
 					{blogPost?.map((post) => (
 						<article key={post.sys.id} className=" max-w-[400px] flex flex-col gap-2">
 							<img
