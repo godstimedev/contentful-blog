@@ -22,7 +22,7 @@ const BlogList = () => {
 			}
 		};
 		getAllEntries();
-	}, [client]);
+	}, []);
 
 	return (
 		<section className="p-4 ">
